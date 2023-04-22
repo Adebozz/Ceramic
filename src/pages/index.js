@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../global/home.module.css";
 import { useViewerConnection } from "@self.id/react";
 import { EthereumAuthProvider } from "@self.id/web";
@@ -76,7 +77,7 @@ function Home() {
 }
 
 function RecordSetter() {
-  const [name, setName] = useState("adeboss");
+  const [name, setName] = useState("");
   const record = useViewerRecord("basicProfile");
 
   console.log(record);
