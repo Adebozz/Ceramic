@@ -77,7 +77,7 @@ function Home() {
 }
 
 function RecordSetter() {
-  const [name, setName] = useState("");
+  const [name, setName] = useState("ADEBOSS");
   const record = useViewerRecord("basicProfile");
 
   console.log(record);
